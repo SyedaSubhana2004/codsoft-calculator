@@ -1,0 +1,39 @@
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(72, 46, 68);
+    text-align: center;
+    font-size: 50px;
+}
+
+body{
+    background-color: aliceblue;
+}
+#box {
+    background-color: rgb(250, 199, 237);
+    color: rgb(27, 10, 25);
+    width: 500px;
+    height: 600px;
+    border-radius: 10px;
+    border-style: dashed;
+    margin: 0 auto; /* This will horizontally center the box */
+    display: flex; /* This will help center vertically */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Vertically center the content */
+    align-items: center; /* Horizontally center the content */
+}
+
+
+    
+button {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+#display {
+    font-size: 36px;
+    width: 90%;
+    padding: 10px; 
+    margin: 20px 0; 
+}
